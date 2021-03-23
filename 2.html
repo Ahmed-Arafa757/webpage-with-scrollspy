@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <style>
+        body {
+            position: relative;
+        }
+
+
+        .carousel-inner img {
+
+            width: 1000px;
+            height: 500px;
+            margin: 100px 100px 100px 150px;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#section1">Section 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section2">Section 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section3">Section 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section4">Section 4
+                </a>
+
+            </li>
+        </ul>
+    </nav>
+
+    <div id="section1" class="container-fluid " style="padding-top:70px;padding-bottom:70px ;background-color: bisque;">
+        <div id="demo" class="carousel slide" data-ride="carousel" >
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner" >
+                <div class="carousel-item active" >
+                    <img src="1.jpeg" alt="Los Angeles" width="200px">
+                </div>
+                <div class="carousel-item">
+                    <img src="2.jpeg" alt="Chicago" width="200px">
+                </div>
+                <div class="carousel-item">
+                    <img src="3.jpeg" alt="New York" width="200px">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <div id="section2" class="container-fluid " style="padding-top:70px;padding-bottom:70px; background-color: lightgray;">
+        <div class="row" style="height:300px;">
+        <div class="col-2"></div>
+
+        <div class="col-3"> <i class="fas fa-coffee" style="font-size: 150px; color: black;"></i></div>
+        <div class="col-7">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>This part is inside a .container class.</p>
+            <p>The .container class provides a responsive fixed width container.</p>
+            <p>Resize the browser window to see that its width (max-width) will change at different breakpoints.</p>
+        </div>
+        </div>
+
+
+        
+    </div>
+    <div id="section3" class="container-fluid " style="padding-top:70px;padding-bottom:70px; background-color: bisque;">
+       <div class="row" style="height:300px;">
+           <div class="col-2"></div>
+           <div class="col-7">
+               <h1>Lorem, ipsum dolor.</h1>
+               <p>This part is inside a .container class.</p>
+               <p>The .container class provides a responsive fixed width container.</p>
+               <p>Resize the browser window to see that its width (max-width) will change at different breakpoints.</p>
+           </div>
+
+           <div class="col-3"> <i class="fas fa-anchor" style="font-size: 150px; color: black;"></i></div>
+           <div class="col-2"></div>
+
+
+       </div>
+    </div>
+    <div id="section4" class="container-fluid " style="padding-top:70px;padding-bottom:70px; background-color: lightgrey;">
+        <div class="row" style="height:550px;">
+            <div class="col-12" style="text-align: center; font-weight: bold; font-size: 14px;">
+
+               
+                   <div style="margin-top: 20px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Labore, suscipit maxime animi incidunt repudiandae nam! <br><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore, suscipit maxime animi incidunt repudiandae nam! <br><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore, suscipit maxime animi incidunt repudiandae nam! <br><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore, suscipit maxime animi incidunt repudiandae nam! <br><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore, suscipit maxime animi incidunt repudiandae nam! <br><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore, suscipit maxime animi incidunt repudiandae nam! <br><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               
+                 
+                     </div>
+                
+            
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
